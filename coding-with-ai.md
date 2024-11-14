@@ -32,12 +32,10 @@ hideInToc: true
 Coding with Copilot
 
 ---
-layout: image-right
-image: assets/ai_coding/auto_piloting.png
+layout: two-cols
 ---
 
 # 编码的不同阶段
-
 - 文本编辑 - L0
 - IDE - L1 + Seatbelt
 - IDE+自动代码补全 - L2
@@ -45,13 +43,21 @@ image: assets/ai_coding/auto_piloting.png
 - AI辅助编码 - L4
 - ？ - L5
 
+::right::
+
+<img src="./assets/ai_coding/auto_piloting.png" alt="levels" style="width: 80%;">
+
+---
+layout: two-cols
 ---
 
-## GitHub Copilot
+# GitHub Copilot
 
 - **多模型支持**: GPT 4o, o1-mini, o1-preview, Claude3.5 Sonnet。
 - **开源代码知识库**：2023年6月之前的top开源项目。
 - **三种使用方式**：**VS Code插件**，github代码页面助手，github cli。
+
+::right::
 
 <SlidevVideo autoplay autoreset='slide'>
   <!-- Anything that can go in an HTML video element. -->
@@ -60,7 +66,7 @@ image: assets/ai_coding/auto_piloting.png
 
 ---
 
-## GitHub Copilot主要功能
+# GitHub Copilot主要功能
 - **对话**: Copilot Chat，直接提问或者下发命令。
   - `/` 快捷命令
   - `@` 调用助手，
@@ -76,72 +82,60 @@ image: assets/ai_coding/auto_piloting.png
 https://code.visualstudio.com/docs/copilot/copilot-vscode-features
 
 ---
-layout: image-right
-image: assets/ai_coding/workspace_new.png
-backgroundSize: contain
+layout: two-cols
 ---
 
-## 场景一：创建工程
+# 场景一：创建工程
 
----
-layout: image
-image: assets/ai_coding/autocomplete.png
-backgroundSize: 70%
----
+::right::
 
-## 场景二：自动补全
-
----
-layout: image
-image: assets/ai_coding/inline_chat2.png
-backgroundSize: 50%
----
-
-## 场景三：inline问答
-
----
-layout: image
-image: assets/ai_coding/inline_fix.png
-backgroundSize: 70%
----
-
-## 场景四：inline代码修复
-
----
-layout: image
-image: assets/ai_coding/edits_1.png
-backgroundSize: 70%
----
-
-## 场景五：代码编辑
-
----
-layout: image
-image: assets/ai_coding/edits_unittest.png
-backgroundSize: 70%
----
-
-## 场景六：单元测试生成
-
----
-layout: image
-image: assets/ai_coding/edits_doc.png
-backgroundSize: 70%
----
-
-## 场景七：文档生成
-
----
-layout: image
-image: assets/ai_coding/terminal_ops.png
-backgroundSize: 50%
----
-
-## 场景八：终端操作
+<img src="./assets/ai_coding/workspace_new.png" alt="workspace_new" style="width: 50%;">
 
 ---
 
-## 其它
+# 场景二：自动补全
+
+<img src="./assets/ai_coding/autocomplete.png" alt="autocomplete" style="width: 100%;">
+
+---
+
+# 场景三：inline问答
+
+<img src="./assets/ai_coding/inline_chat2.png" alt="inline_chat2" style="width: 80%;">
+
+---
+
+# 场景四：inline代码修复
+
+<img src="./assets/ai_coding/inline_fix.png" alt="inline_fix" style="width: 80%;">
+
+---
+
+# 场景五：代码编辑
+
+<img src="./assets/ai_coding/edits_1.png" alt="edits_1" style="width: 100%;">
+
+---
+
+# 场景六：单元测试生成
+
+<img src="./assets/ai_coding/edits_unittest.png" alt="edits_unittest" style="width: 100%;">
+
+---
+
+# 场景七：文档生成
+
+<img src="./assets/ai_coding/edits_doc.png" alt="edits_doc" style="width: 90%;">
+
+---
+
+# 场景八：终端操作
+
+<img src="./assets/ai_coding/terminal_ops.png" alt="terminal_ops" style="width: 50%;">
+
+---
+
+# 其它
 
 - 自定义提示词
   ```json

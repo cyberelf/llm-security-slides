@@ -18,7 +18,7 @@ markdownFiles.forEach(file => {
   const outputDir = path.join(distDir, fileName);
 
   // Build the markdown file
-  execSync(`slidev build ${path.join(slidevDir, file)} -o ${outputDir} --base /${fileName}`);
+  execSync(`slidev build ${path.join(slidevDir, file)} -o ${outputDir} --base /${fileName} --per-slide`);
 });
 
 // Update the dist/index.html
